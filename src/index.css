@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@theme { --font-inter: "Inter", "sans-serif"; }
+@import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap');
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+@theme { --font-inter: "Inter", "sans-serif"; --font-sanchez: "Sanchez", "sans-serif"}
+
 
 body {
   margin: 0;
